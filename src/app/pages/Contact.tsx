@@ -14,10 +14,39 @@ export function Contact() {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  e.preventDefault();
 
+  const subject = encodeURIComponent(
+    `Demande de devis - ${form.service || "Contact"}`
+  );
+
+  const body = encodeURIComponent(
+`Nom: ${form.nom}
+Téléphone: ${form.telephone}
+Email: ${form.email}
+Ville: ${form.ville}
+Service: ${form.service}
+
+Message:
+${form.message}`
+  );
+
+  const mailtoLink = `mailto:snr27@orange.fr?subject=${subject}&body=${body}`;
+
+  // ouvre mail
+  window.location.href = mailtoLink;
+
+  // reset form (optionnel mais propre)
+  setForm({
+    nom: "",
+    telephone: "",
+    email: "",
+    ville: "",
+    service: "",
+    message: "",
+  });
+};
+  
   const inputStyle = {
     background: "rgba(255,255,255,0.04)",
     border: "1px solid rgba(255,255,255,0.1)",
