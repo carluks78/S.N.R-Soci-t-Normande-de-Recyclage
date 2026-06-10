@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/contact</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/services</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Page Epave -->
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/epave</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Villes (SEO local très important) -->
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/evreux</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/vernon</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/louviers</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/gisors</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/val-de-reuil</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/les-andelys</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/gaillon</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/pacy-sur-eure</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/saint-andre-de-l-eure</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/rouen</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/le-havre</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/caen</loc>
+  </url>
+  <url>
+    <loc>https://s-n-r-societe-normande-de-recyclage.vercel.app/ville/dieppe</loc>
+  </url>
+
+</urlset>
