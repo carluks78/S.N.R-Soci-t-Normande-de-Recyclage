@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://s-n-r-societe-normande-de-recyclage.vercel.app/sitemap.xml
+
+# Bloquer pages inutiles (optionnel mais SEO clean)
+Disallow: /admin
+Disallow: /private
+Disallow: /api
+
+# Crawl delay (optionnel)
+Crawl-delay: 1
