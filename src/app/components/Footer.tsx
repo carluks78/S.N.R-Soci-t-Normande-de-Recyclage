@@ -70,7 +70,7 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-2.5">
               <Mail size={16} className="text-[#22c55e] shrink-0" />
-              <span style={{ color: "#6b7280", fontSize: "0.85rem" }}>contact@snr-recyclage.fr</span>
+              <span style={{ color: "#6b7280", fontSize: "0.85rem" }}>snr27@orange.fr</span>
             </li>
             <li className="flex items-start gap-2.5">
               <Clock size={16} className="text-[#22c55e] shrink-0 mt-0.5" />
