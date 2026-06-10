@@ -195,6 +195,10 @@ export function Contact() {
                       </label>
                       <select name="service" value={form.service} onChange={handleChange} style={inputStyle}>
                         <option value="" style={{ background: "#111" }}>Choisir un service</option>
+                        {/* AJOUT IMPORTANT */}
+  <option value="epaves" style={{ background: "#111" }}>
+    Enlèvement d'épaves
+  </option>
                         <option value="rachat" style={{ background: "#111" }}>Rachat de métaux</option>
                         <option value="collecte" style={{ background: "#111" }}>Collecte de ferraille</option>
                         <option value="demolition" style={{ background: "#111" }}>Démolition</option>
