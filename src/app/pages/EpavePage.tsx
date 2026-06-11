@@ -136,8 +136,7 @@ const TYPES_VEHICULES = [
   "voiture", "automobile", "véhicule", "auto", "berline", "citadine", "monospace",
   "break", "SUV", "4x4", "coupé", "cabriolet", "sportive", "familiale",
   "moto", "moto-cross", "scooter", "cyclomoteur", "deux-roues", "quad",
-  "utilitaire", "fourgon", "fourgonnette", "camionnette", "van", "minibus",
-  "camping-car", "caravane", "remorque", "tracteur", "engin agricole",
+  "utilitaire", "fourgon", "fourgonnette", "camionnette", "van", "minibus", "remorque", "tracteur", "engin agricole",
 ];
 
 const ETATS_VEHICULES = [
@@ -551,7 +550,7 @@ export function EpavePage() {
     },
     {
       q: `Quels véhicules enlevez-vous comme épaves à ${villeData.nom} ?`,
-      a: `Nous enlevons à ${villeData.nom} : voitures, motos, scooters, utilitaires, fourgonnettes, camping-cars légers, tracteurs et engins agricoles. Roulants ou non roulants, brûlés, accidentés, sans contrôle technique — tout est accepté.`,
+      a: `Nous enlevons à ${villeData.nom} : voitures, motos, scooters, utilitaires, fourgonnettes, tracteurs et engins agricoles. Roulants ou non roulants, brûlés, accidentés, sans contrôle technique — tout est accepté.`,
     },
     {
       q: `Comment obtenir le certificat de destruction à ${villeData.nom} ?`,
@@ -1049,7 +1048,6 @@ export function EpavePage() {
             { emoji: "🚐", cat: "Utilitaires", types: "Fourgons, camionnettes, vans, minibus" },
             { emoji: "🚛", cat: "Poids lourds légers", types: "Jusqu'à 3,5 t, sur demande au-delà" },
             { emoji: "🚜", cat: "Engins agricoles", types: "Tracteurs, moissonneuses, chargeurs" },
-            { emoji: "🏕️", cat: "Camping-cars", types: "Camping-cars légers et caravanes" },
           ].map((v, i) => (
             <FadeIn key={i} delay={i * 0.06}>
               <motion.div
