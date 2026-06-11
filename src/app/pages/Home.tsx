@@ -324,7 +324,7 @@ function HeroSection() {
     marginRight: "auto",
   }}
 >
-  ✔️ <strong>Particuliers & professionnels</strong> : dépôt direct de vos métaux et ferraille sur site  
+  ✔️ <strong>Particuliers & professionnels</strong> : enlèvement ou dépôt direct de vos métaux et ferraille sur site  
   ✔️ <strong>Paiement immédiat</strong> après pesée et estimation  
   ✔️ <strong>VHU (véhicules hors d’usage)</strong> : réception et enlèvement des véhicules  
   ✔️ Traitement réalisé chez notre partenaire agréé{" "}
