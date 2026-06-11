@@ -66,7 +66,7 @@ const SERVICES = [
 
 const STATS = [
   { value: 10000, suffix: "+", label: "Tonnes recyclées", icon: <Recycle size={24} /> },
-  { value: 5000, suffix: "+", label: "Clients satisfaits", icon: <Users size={24} /> },
+  { value: 5000, suffix: "+", label: "Clients Particuliers et Professionnels satisfaits", icon: <Users size={24} /> },
   { value: 24, suffix: "h", label: "Délai d'intervention", icon: <Clock size={24} /> },
   { value: 100, suffix: "%", label: "Valorisation", icon: <Award size={24} /> },
 ];
@@ -307,6 +307,30 @@ function HeroSection() {
         >
           Spécialiste du rachat, de la collecte et de la valorisation des métaux ferreux et non ferreux pour particuliers et professionnels en Normandie.
         </motion.p>
+
+        {/* Info métier */}
+<div
+  style={{
+    marginTop: "1.5rem",
+    padding: "12px 16px",
+    borderRadius: "12px",
+    border: "1px solid rgba(34,197,94,0.25)",
+    background: "rgba(34,197,94,0.08)",
+    color: "#d1d5db",
+    fontSize: "0.85rem",
+    lineHeight: 1.6,
+    maxWidth: "720px",
+    marginLeft: "auto",
+    marginRight: "auto",
+  }}
+>
+  ✔️ <strong>Particuliers & professionnels</strong> : dépôt direct de vos métaux et ferraille sur site  
+  ✔️ <strong>Paiement immédiat</strong> après pesée et estimation  
+  ✔️ <strong>VHU (véhicules hors d’usage)</strong> : réception et enlèvement des véhicules  
+  ✔️ Traitement réalisé chez notre partenaire agréé{" "}
+  <strong>Eure Métal</strong> (centre VHU agréé)  
+  ⚠️ Nous ne prenons pas les caravanes
+</div>
 
         {/* CTAs */}
         <motion.div
