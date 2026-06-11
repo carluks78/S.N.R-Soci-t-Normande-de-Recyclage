@@ -66,7 +66,7 @@ const SERVICES = [
 
 const STATS = [
   { value: 10000, suffix: "+", label: "Tonnes recyclées", icon: <Recycle size={24} /> },
-  { value: 5000, suffix: "+", label: "Clients Particuliers et Professionnels satisfaits", icon: <Users size={24} /> },
+  { value: 500, suffix: "+", label: "Clients Particuliers et Professionnels satisfaits", icon: <Users size={24} /> },
   { value: 24, suffix: "h", label: "Délai d'intervention", icon: <Clock size={24} /> },
   { value: 100, suffix: "%", label: "Valorisation", icon: <Award size={24} /> },
 ];
