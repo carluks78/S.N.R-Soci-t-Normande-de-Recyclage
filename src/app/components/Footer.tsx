@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { Phone, MapPin, Clock, Mail } from "lucide-react";
 import logoSNR from "../../imports/logo_snr.jpeg";
+import { Facebook, Music2 } from "lucide-react";
 
 const cities = [
   "Évreux", "Vernon", "Louviers", "Gisors", "Val-de-Reuil",
@@ -24,34 +25,51 @@ export function Footer() {
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
-        <div>
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#22c55e]">
-              <img src={logoSNR} alt="SNR" className="w-full h-full object-cover" />
-            </div>
-            <div>
-              <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "#fff", letterSpacing: "0.05em" }}>
-                S<span style={{ color: "#22c55e" }}>.</span>N<span style={{ color: "#22c55e" }}>.</span>R
-              </div>
-              <div style={{ fontSize: "0.6rem", color: "#6b7280", letterSpacing: "0.1em", textTransform: "uppercase" }}>
-                Société Normande de Recyclage
-              </div>
-            </div>
-          </div>
-          <p style={{ color: "#6b7280", fontSize: "0.85rem", lineHeight: 1.7, marginBottom: "1rem" }}>
-            Ferrailleur professionnel dans l'Eure (27) et toute la Normandie. Rachat, collecte et valorisation de métaux ferreux et non ferreux.
-          </p>
-          <a
-            href="https://www.tiktok.com/@la.snr.27"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg transition-colors hover:bg-[#22c55e]/10"
-            style={{ color: "#22c55e", fontSize: "0.8rem", border: "1px solid rgba(34,197,94,0.2)" }}
-          >
-            TikTok @la.snr.27
-          </a>
-        </div>
+<div>
+  <div className="flex items-center gap-3 mb-4">
+    <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#22c55e]">
+      <img src={logoSNR} alt="SNR" className="w-full h-full object-cover" />
+    </div>
 
+    <div>
+      <div style={{ fontSize: "1.1rem", fontWeight: 700, color: "#fff", letterSpacing: "0.05em" }}>
+        S<span style={{ color: "#22c55e" }}>.</span>N<span style={{ color: "#22c55e" }}>.</span>R
+      </div>
+      <div style={{ fontSize: "0.6rem", color: "#6b7280", letterSpacing: "0.1em", textTransform: "uppercase" }}>
+        Société Normande de Recyclage
+      </div>
+    </div>
+  </div>
+
+  <p style={{ color: "#6b7280", fontSize: "0.85rem", lineHeight: 1.7, marginBottom: "1rem" }}>
+    Ferrailleur professionnel dans l'Eure (27) et toute la Normandie. Rachat, collecte et valorisation de métaux ferreux et non ferreux.
+  </p>
+
+  {/* Social links */}
+  <div className="flex items-center gap-3 mt-4">
+    <a
+      href="https://www.facebook.com/share/1BAwF7gd6i/?mibextid=wwXIfr"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-blue-500/10 transition-colors"
+      style={{ color: "#1877F2", border: "1px solid rgba(24,119,242,0.3)" }}
+    >
+      <Facebook size={16} />
+      Facebook
+    </a>
+
+    <a
+      href="https://www.tiktok.com/@la.snr.27"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-white/10 transition-colors"
+      style={{ color: "#fff", border: "1px solid rgba(255,255,255,0.2)" }}
+    >
+      <Music2 size={16} />
+      TikTok
+    </a>
+  </div>
+</div>
         {/* Contact */}
         <div>
           <h3 style={{ color: "#fff", fontWeight: 600, marginBottom: "1rem", fontSize: "1rem" }}>Contact</h3>
@@ -75,8 +93,7 @@ export function Footer() {
             <li className="flex items-start gap-2.5">
               <Clock size={16} className="text-[#22c55e] shrink-0 mt-0.5" />
               <div style={{ color: "#6b7280", fontSize: "0.85rem" }}>
-                <div>Lun–Ven: 8h–17h</div>
-                <div>Sam: 8h–12h</div>
+                <div>Lun–Ven: 9h–12h et de 13h30 à 17h30</div>
               </div>
             </li>
           </ul>
